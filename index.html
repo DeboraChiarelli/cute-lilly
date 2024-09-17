@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Hey do you want to know what's happening today?</h1>
+            <p>The button is naughty, but don't give up, you can do it.</p>
+        </div>
+        <div class="gif_container">
+            <img src="giphy.gif" alt="Cute animated
+                Lilly">
+        </div>
+        <div class="buttons">
+            <!-- Quando il mouse passa sopra il pulsante "No", sfugge, e quando viene cliccato chiama handleClick() -->
+            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="handleClick()">No</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
